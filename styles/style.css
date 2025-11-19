@@ -1,0 +1,158 @@
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(78, 90, 100);
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8%;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.opcionMenuNavegacion {
+    background-color: rgb(78, 90, 100);
+    border: none;
+    color: #FFFFFF;
+    padding: 0px 30px;
+}
+
+.active {
+    background-color: rgb(64, 72, 80);
+    box-shadow: 0 0 5px rgb(0, 0, 0) inset;
+    border-bottom: 1px rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #FFFFFF;
+}
+
+/*                        */
+/*      Contenedor 1      */
+/*                        */
+
+.contenedor1 {
+    background-color: rgb(78, 90, 100);
+    display: flex;
+    padding: 1% 8%;
+}
+
+.ladoDerechoContenedor1 {
+    padding: 1% 1% 1% 8%;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.tituloPrincipal {
+    font-size: 55px;
+    margin: 0%;
+}
+
+.textoGris {
+    color: #b2afaf;
+}
+
+.botonesContenedor1 {
+    display: flex;
+    padding: 5% 0%;
+}
+
+.botonAzul {
+    background-color: rgb(84, 145, 203);
+    box-shadow: 0 0 5px rgb(33, 86, 125) inset, 0 3px 10px rgb(29, 29, 29);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: #FFFFFF;
+    padding: 0% 7%;
+}
+
+.or {
+    padding: 0% 4%;
+}
+
+.botonSubrayado {
+    display: flex;
+    background-color: rgb(78, 90, 100);
+    border: none;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.contenedorBotonBlanco {
+    align-items: center;
+    margin: auto 0px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.botonSubrayadoImagen {
+    padding: 0px 5px;
+    align-items: center;
+}
+
+/*                        */
+/*      Contenedor 2      */
+/*                        */
+
+.contenedor2 {
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    padding: 1.5%;
+    justify-content: space-around;
+}
+
+/*                        */
+/*      Contenedor 3      */
+/*                        */
+
+.contenedor3 {
+    display: flex;
+    padding: 7%;
+    justify-content: space-between;
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3 {
+    width: 30%;
+    justify-content: center;
+    text-align: center;
+}
+
+.tituloTarjetas {
+    font-weight: 100;
+    color: rgb(128, 142, 154);
+}
+
+.parrafoTarjetas {
+    color: rgb(188, 188, 188);
+}
+
+.botonTarjetas {
+    background-color: rgb(84, 145, 203);
+    box-shadow: 0 0 10px rgb(33, 86, 125) inset;
+    border: none;
+    border-radius: 5px;
+    padding: 5% 10%;
+    color: #FFFFFF;
+    margin: 7% 0;
+}
