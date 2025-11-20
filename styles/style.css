@@ -4,6 +4,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*                        */
+/*         Header         */
+/*                        */
+
 header {
     background-color: rgb(78, 90, 100);
     display: flex;
@@ -155,4 +159,115 @@ hr {
     padding: 5% 10%;
     color: #FFFFFF;
     margin: 7% 0;
+}
+
+/*                        */
+/*      Contenedor 4      */
+/*                        */
+
+.contenedor4 {
+    padding: 0% 7%;
+}
+
+.tituloContenedor4 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.shapes {
+    padding-right: 1%;
+}
+
+.imgsContenedor4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgContenedor4 {
+    width: 22%;
+    box-shadow: 0 0 1px rgb(0, 0, 0);
+}
+
+/*                        */
+/*      Contenedor 5      */
+/*                        */
+
+.contenedor5 {
+    padding: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.izqContenedor5, .derContenedor5 {
+    width: 45%;
+}
+
+.FOB01IzqContenedor5, .FOB02IzqContenedor5 {
+    display: flex;
+    padding: 3% 0%;
+}
+
+.imgContenedor5 {
+    width: 30%;
+    padding: 2% 5% 2% 0%;
+}
+
+.FOB01contenido {
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+
+h3 {
+    font-weight: 100;
+    color: rgb(128, 142, 154);
+    margin: 0%;
+}
+
+.parrafosContenedor5 {
+    color: #a0a0a0;
+    line-height: 2;
+    margin: 0%;
+}
+
+.fechasContenedor5 {
+    margin: 0%;
+}
+
+.fechasContenedor5 {
+    font-size: 14px;
+    color: #cfcfcf;
+}
+
+.linkAzul {
+    color: #289eff;
+}
+
+.user {
+    color: rgb(128, 142, 154);
+}
+
+.parrafosDerContenedor5 {
+    width: 75%;
+    padding-bottom: 4%;
+}
+
+/*                        */
+/*         Footer         */
+/*                        */
+
+footer {
+    padding: 2% 7%;
+}
+
+.lineaFooter {
+    color: #a0a0a0;
+}
+
+.copyYRedes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
 }
